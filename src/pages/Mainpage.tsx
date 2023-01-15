@@ -1,5 +1,10 @@
 const Mainpage = () => {
-    return <div>메인페이지</div>
+  return (
+    <>
+      <h1>mpl</h1>
+      <section>하이 ㅋㅋ</section>
+    </>
+  );
 };
 
 export default Mainpage;
