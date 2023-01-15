@@ -2,7 +2,7 @@ const Mainpage = () => {
   return (
     <>
       <h1>mpl</h1>
-      <section>하이 ㅋㅋ</section>
+      <section className=''>하이 ㅋㅋ</section>
     </>
   );
 };
