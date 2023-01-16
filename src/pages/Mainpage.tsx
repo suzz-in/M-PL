@@ -2,7 +2,9 @@ const Mainpage = () => {
   return (
     <>
       <h1>mpl</h1>
-      <section className=''>하이 ㅋㅋ</section>
+      <nav>
+        <img src="../assets/nav.png" alt="네비게이션바" />
+      </nav>
     </>
   );
 };
