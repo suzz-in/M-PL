@@ -27,7 +27,7 @@ function App() {
     <Pc><div>모바일 환경에서 이용가능합니다. 화면 크기를 줄이거나 모바일 환경을 이용해주세요</div></Pc>
     <Mobile>
     <Routes>
-    <Route path="/mypage:id" element={<Mypage />} />
+    <Route path="/mypage" element={<Mypage />} />
     <Route path="/" element={<Mainpage />} />
     <Route path="/auth" element={<Loginpage />} />
     <Route path="/detail:id" element={<PlaylistDetailpage />} />
