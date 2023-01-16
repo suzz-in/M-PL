@@ -11,7 +11,7 @@
   box-sizing: border-box; /* 1 */
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
-  border-color: #e5e7eb; /* 2 */
+  border-color: currentColor; /* 2 */
 }
 
 ::before,
@@ -461,7 +461,11 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-mpl_pink {
+  --tw-text-opacity: 1;
+  color: rgb(255 103 103 / var(--tw-text-opacity));
 }
