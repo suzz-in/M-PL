@@ -1,5 +1,12 @@
+import NoUser from "../components/mypage/NoUser";
+
 const Mypage=()=>{
-    return (<div>mypage</div>)
+    console.log("1111")
+    return (<>
+    <div>mypage1133331</div>
+    <NoUser />
+    </>
+    )
 };
 
-export default Mypage;
+export default Mypage; 
